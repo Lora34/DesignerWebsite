@@ -73,7 +73,18 @@ body {
     margin: 0 auto;
     /*padding: 0 15px;*/
 }
-.header-logo {
+.header {
+
+    background: #EEEFF1;
+}
+.header_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo {
     font-style: normal;
     font-weight: normal;
     font-size: 48px;
@@ -81,7 +92,13 @@ body {
     text-align: center;
     color: #34547A;
 }
-.header-item {
+.header_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_item {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -89,3 +106,200 @@ body {
     letter-spacing: 0.1em;
     color: #34547A;
 }
+.header_link {
+    text-decoration: none;
+    margin-right: 42px;
+}
+
+.header_link:last-child {
+    margin-right: 0;
+}
+
+.header_link:hover,  .header_link:focus,  .header_link:active {
+    opacity: .75;
+}
+.intro {
+    padding-top: 162px;
+    padding-bottom: 146px;
+    background: #EEEFF1;
+}
+.intro_card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 130px;
+}
+
+.intro_info_title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    color: #000000;
+    padding-bottom: 60px;
+}
+.intro_info_subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding-bottom: 60px;
+}
+.intro_info_button {
+    width: 225px;
+    height: 65px;
+    left: 975px;
+    top: 482px;
+    background: #34547A;
+    color: #FFFFFF;
+}
+
+.about {
+    background: #E5E5E5;
+    padding-bottom: 100px;
+    padding-top: 119px;
+}
+.about_info {
+    display: flex;
+    flex-wrap: wrap;
+}
+.about_title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 50px;
+    width: 100%;
+}
+.about_subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+.projects {
+    background: #34547A;
+}
+.pojects_cards {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 49px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.pojects_card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.project_info {
+    display: block;
+}
+.pojects_card_number{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding-top: 10px;
+
+}
+.pojects_card_desc {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.skills_card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    padding-top: 102px;
+    padding-bottom: 101px;
+}
+.skills_title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+    margin-top: 102px;
+}
+.skills_foto_thumb {
+    width: 555px;
+    height: 450px;
+    left: 981px;
+    top: 1411px;
+}
+
+.video {
+    background: #EEEFF1;
+    width: 100%;
+    padding-bottom: 100px;
+}
+.video_wrap {
+
+    margin: 0 auto;
+    position: relative;
+}
+.video_item {
+    padding-top: 56.25%;
+}
+.video_element {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.video_info {
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 57px;
+}
+
+.video_title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.video_subtitle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin: 0 auto;
+    max-width: 540px;
+}
+.pictures {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 28px;
+
+}
+.pictures_thumb {
+    width: 480px;
+    height: 480px;
+}
+
+
+
+
+
