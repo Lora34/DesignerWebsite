@@ -82,6 +82,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding-top: 79px;
 }
 
 .header_logo {
@@ -98,21 +99,22 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
 .header_item {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.1em;
-    color: #34547A;
+    color: #000000;
+    margin-right: 40px;
+}
+.header_item:last-child {
+    margin-right: 0;
 }
 .header_link {
     text-decoration: none;
-    margin-right: 42px;
-}
-
-.header_link:last-child {
-    margin-right: 0;
+    color: #000000;
 }
 
 .header_link:hover,  .header_link:focus,  .header_link:active {
@@ -345,13 +347,8 @@ body {
     margin-bottom: 50px;
 }
 
-.intro_info_button {
-    width: 225px;
-    height: 65px;
-    left: 975px;
-    top: 482px;
-    background: #34547A;
-    color: #FFFFFF;
+.form_button {
+    margin: 0 auto;
 }
 footer {
     background-color: #34547A;
